@@ -7,7 +7,7 @@
 	</style>
 </head>
 <body>
-<h1 style="font-size:14px;">some git command</h1>
+<h1 style="font-size:14px;">some aaaa git command</h1>
 <span class="code">
 <span class="code">git init</span>
 <span class="disc">添加文件</span>
