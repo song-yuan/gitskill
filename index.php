@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1 style="font-size:14px;">some git command</h1>
-
+<span class="code">
 <span class="code">git init</span>
 <span class="disc">添加文件</span>
 <span class="code">git add [fileName]</span>
@@ -21,7 +21,7 @@
 <span class="disc">切换分支</span>
 <span class="code">git checkout [branchName]</span>
 <span class="code">git checkout -b [branchName]</span>
-<span class="code">git checkout -b [branchName] <remote/branchName]</span>
+<span class="code">git checkout -b [branchName] [remote/branchName]</span>
 
 
 <span class="code">git branch</span>
@@ -33,6 +33,6 @@
 <span class="code">git push origin [branchName]</span>
 <span class="code">git pull</span>
 
-
+</span>
 </body>
 </html>
