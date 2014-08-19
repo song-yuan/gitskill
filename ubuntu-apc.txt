@@ -1,0 +1,19 @@
+Alternative PHP Cache
+中文全称是“可选PHP缓存”，是PECL的一个组件，可以用于缓存和优化Web服务器上的PHP代码，改善服务器性能。可以脱离PECL单独安装，能通过phpinfo()查看是否安装正确。
+
+APC 可显著加速 PHP 应用的速度，其实现原理是缓存opcode的php中间码，在应用中加入
+APC 可提升应用的响应速度，降低服务器负载。
+
+下面我们介绍如何安装 APC。
+
+1. 首先安装必须的包
+sudo apt-get install php-pear php5-dev apache2-threaded-dev
+
+2. 安装 APC:
+sudo pecl install apc-3.1.6
+
+3. 创建配置文件 /etc/php5/conf.d/apc.ini 内容如下：
+extension=apc.so
+
+4. 重启 Apache:
+sudo /etc/init.d/apache2 restart
